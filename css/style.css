@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.8rem;
+	line-height: 1.8;
+	color: #888a8b;
+}
+
+/* Layout */
+.ba-container {
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1000px;
+}
+
+.header {
+	background-color: #23232e;
+	color: #fff;
+	padding: 80px 0 50px 0;
+	min-height: 100vh;
+}
+
+.title {
+	text-transform: uppercase;
+	font-size: 8rem;
+	line-height: 1;
+	font-weight: 700;
+	margin: 110px 0 60px;
+}
+
+.header__text {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.header__scroll {
+	width: 50px;
+	height: 50px;
+	line-height: 45px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 100px;
+	transition: all .4s linear;
+}
+
+.header__scroll svg {
+	vertical-align: middle;
+}
+
+.header__scroll svg {
+	fill: #fff;
+	transition: all .4s linear;
+}
+
+.header__scroll:hover,
+.header__scroll:focus,
+.header__scroll:active {
+	background-color: #fff;
+}
+
+.header__scroll:hover svg,
+.header__scroll:focus svg,
+.header__scroll:active svg {
+	fill: #23232e;
+}
+
+.content {
+	background-image: url(../img/bg.svg);
+	background-repeat: no-repeat;
+	background-size: 120% 120%;
+	background-position: 25% 0;	
+}
+
+.article {
+	max-width: 860px;
+	margin: 0 auto;
+	padding: 150px 0 10px 0;
+	font-size: 3rem;
+	color: #464b4f;
+}
+
+.article p {
+	margin: 0 0 2em 0;
+}
+
+.section:last-child {
+	padding-bottom: 100px;
+}
+
+.section h1,
+.section h2,
+.section h3,
+.section h4,
+.section h5,
+.section h6 {
+	color: #464b4f;
+	text-transform: uppercase;
+}
+
+.section a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.section h3 {
+	font-size: 1.8rem;
+}
+
+.section h4 {
+	font-size: 1.6rem;
+}
